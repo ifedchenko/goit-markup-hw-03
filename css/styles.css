@@ -76,8 +76,8 @@ body {
   column-gap: 76px;
 }
 .header-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: inherit;
+  flex-wrap: inherit;
   column-gap: 40px;
   padding-right: 332px;
 }
