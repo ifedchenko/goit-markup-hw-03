@@ -22,12 +22,14 @@ ul {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid tomato;
 }
 
+.section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .list-none {
   list-style: none;
 }
@@ -59,9 +61,10 @@ body {
   --hover-color: #404bbf;
 }
 
-/* -----------------HEADER------------------- */
+/* -----------------INDEX-HEADER------------------- */
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header > .container {
@@ -69,6 +72,7 @@ body {
   flex-wrap: wrap;
   padding-top: 24px;
   padding-bottom: 24px;
+  column-gap: 332px;
 }
 .header-nav {
   display: flex;
@@ -79,7 +83,7 @@ body {
   display: inherit;
   flex-wrap: inherit;
   column-gap: 40px;
-  padding-right: 332px;
+  /* padding-right: 332px; */
 }
 
 .header-contacts {
@@ -126,7 +130,7 @@ body {
   color: var(--hover-color);
 }
 
-/* -----------------HERO------------------- */
+/* -----------------INDEX-HERO------------------- */
 .hero {
   background-color: var(--navy-blue-color);
 }
@@ -162,7 +166,7 @@ body {
   background-color: #404bbf;
 }
 
-/* -----------------OUR-FEATURES------------------- */
+/* -----------------INDEX-OUR-FEATURES------------------- */
 .our-features-suptitle {
   font-weight: 500;
   font-size: 20px;
@@ -179,7 +183,7 @@ body {
   color: var(--slate-color);
 }
 
-/* -----------------What-Are-We-Doing------------------- */
+/* -----------------INDEX-What-Are-We-Doing------------------- */
 .what-we-do-title {
   font-weight: 700;
   font-size: 36px;
@@ -189,7 +193,7 @@ body {
   color: --navy-blue-color;
 }
 
-/* -----------------OUR-TEAM------------------- */
+/* -----------------INDEX-OUR-TEAM------------------- */
 
 .our-team-title {
   font-weight: 700;
@@ -215,7 +219,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
-/* -----------------FOOTER------------------- */
+/* -----------------INDEX-FOOTER------------------- */
 .footer {
   background-color: var(--navy-blue-color);
 }
