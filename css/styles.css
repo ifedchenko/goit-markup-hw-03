@@ -181,6 +181,11 @@ body {
 }
 
 /* -----------------INDEX-OUR-FEATURES------------------- */
+
+.our-features > .section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .our-features-suptitle {
   font-weight: 500;
   font-size: 20px;
@@ -196,8 +201,20 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
+.our-features-items {
+  width: 264px;
+}
+.our-features-list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 24px;
+}
 
 /* -----------------INDEX-What-Are-We-Doing------------------- */
+.what-we-do > .section {
+  padding-bottom: 120px;
+}
 .what-we-do-title {
   font-weight: 700;
   font-size: 36px;
@@ -205,8 +222,13 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: --navy-blue-color;
+  text-align: center;
 }
 
+.what-we-do-list {
+  display: flex;
+  gap: 24px;
+}
 /* -----------------INDEX-OUR-TEAM------------------- */
 
 .our-team-title {
