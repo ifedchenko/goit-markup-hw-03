@@ -133,10 +133,9 @@ body {
 .hero > .section {
   padding: 188px 0;
   text-align: center;
-
 }
 .hero {
-  background-color: var(--navy-blue-color); Почему уменьшается BG без заданой ширины
+  background-color: var(--navy-blue-color); /* Почему уменьшается BG без заданой ширины */
 }
 
 .hero-title {
