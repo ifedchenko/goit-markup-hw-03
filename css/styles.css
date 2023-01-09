@@ -20,8 +20,14 @@ ul {
   padding: 0;
 }
 
+.img {
+  display: block;
+}
+
 .container {
   width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid tomato;
 }
@@ -130,7 +136,7 @@ body {
 }
 
 /* -----------------INDEX-HERO------------------- */
-.hero > .section {
+.hero > .container {
   padding: 188px 0;
   text-align: center;
 }
@@ -155,7 +161,7 @@ body {
   border-radius: 4px;
   padding: 13px 32px;
   margin-top: 48px;
-  margin-bottom: 188px;
+  /* margin-bottom: 188px; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0;
   font-family: inherit;
