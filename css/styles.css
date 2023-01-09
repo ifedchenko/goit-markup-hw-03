@@ -88,7 +88,6 @@ body {
 
 .header-contacts {
   display: flex;
-  flex-wrap: wrap;
   column-gap: 40px;
 }
 
@@ -134,10 +133,10 @@ body {
 .hero > .section {
   padding: 188px 0;
   text-align: center;
-  background-color: var(--navy-blue-color);
+
 }
 .hero {
-  /* background-color: var(--navy-blue-color); Почему уменьшается BG без заданой ширины */
+  background-color: var(--navy-blue-color); Почему уменьшается BG без заданой ширины
 }
 
 .hero-title {
