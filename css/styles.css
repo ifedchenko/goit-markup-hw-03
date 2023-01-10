@@ -20,7 +20,7 @@ ul {
   padding: 0;
 }
 
-.img {
+*.img {
   display: block;
 }
 
@@ -30,11 +30,6 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid tomato;
-}
-
-.section {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .list-none {
   list-style: none;
@@ -281,7 +276,7 @@ body {
 }
 
 .our-team-item > img {
-  display: block;
+  /* display: block; */
   padding-bottom: 32px;
 }
 
@@ -323,6 +318,11 @@ body {
 }
 /* -----------------PORTFOLIO------------------- */
 
+.portfolio > .container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
@@ -345,6 +345,12 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .portfolio-images-title {
