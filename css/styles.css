@@ -29,6 +29,10 @@ ul {
   margin: 0 auto;
   /* outline: 1px solid tomato; */
 }
+
+.section {
+  padding: 120px 0;
+}
 .list-none {
   list-style: none;
 }
@@ -180,10 +184,10 @@ body {
 
 /* -----------------INDEX-OUR-FEATURES------------------- */
 
-.our-features > .container {
+/* .our-features > .container {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 .our-features-suptitle {
   font-weight: 500;
   font-size: 20px;
@@ -232,10 +236,10 @@ body {
 }
 /* -----------------INDEX-OUR-TEAM------------------- */
 
-.our-team > .container {
+/* .our-team > .container {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 
 .our-team-title {
   font-weight: 700;
