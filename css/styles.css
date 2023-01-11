@@ -358,9 +358,11 @@ body {
 .portfolio-images-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+  padding-left: 16px;
+  padding-bottom: 8px;
 }
 
 .portfolio-images-text {
@@ -369,8 +371,21 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
+.portfolio-images-item {
+  width: 360px;
+  border: 1px solid #e7e9fc;
+}
 .portfolio-images-item > img {
-  display: block;
+  padding-bottom: 32px;
+}
+
+.portfolio-images-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
