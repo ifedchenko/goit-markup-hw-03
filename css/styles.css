@@ -238,6 +238,11 @@ body {
   display: flex;
   gap: 24px;
 }
+
+.what-we-do-items {
+  width: calc((100%-48px) / 3);
+}
+
 /* -----------------INDEX-OUR-TEAM------------------- */
 
 /* .our-team > .container {
