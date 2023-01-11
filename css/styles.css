@@ -23,6 +23,10 @@ ul {
   padding: 0;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -30,9 +34,6 @@ ul {
   /* outline: 1px solid tomato; */
 }
 
-.section {
-  padding: 120px 0;
-}
 .list-none {
   list-style: none;
 }
