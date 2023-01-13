@@ -31,7 +31,7 @@ ul {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 1px solid tomato; */
+  outline: 1px solid tomato;
 }
 .section {
   padding-top: 120px;
@@ -74,13 +74,17 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header > .container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 24px;
-  padding-bottom: 24px;
   column-gap: 332px;
 }
+
 .header-nav {
   display: flex;
   flex-wrap: wrap;
@@ -137,18 +141,20 @@ body {
 }
 
 /* -----------------INDEX-HERO------------------- */
-.hero > .container {
+.hero {
   padding: 188px 0;
   text-align: center;
 }
+
 .hero {
   background-color: var(--navy-blue-color); /* Почему уменьшается BG без заданой ширины */
 }
 
 .hero-title {
   max-width: 496px; /* 494px как в макете не работает */
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin: 0 auto;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -162,7 +168,6 @@ body {
   border-radius: 4px;
   padding: 13px 32px;
   margin-top: 48px;
-  /* margin-bottom: 188px; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0;
   font-family: inherit;
@@ -187,17 +192,16 @@ body {
 }
 
 /* -----------------INDEX-OUR-FEATURES------------------- */
-
-/* .our-features > .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
+.our-features {
+  padding: 120px 0;
+}
 .our-features-suptitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+  padding-bottom: 8px;
 }
 
 .our-features-text {
